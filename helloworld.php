@@ -20,3 +20,9 @@
 ?>
 </body>
 </html>
+
+<?php
+	$arr=array("one", "two", "three");
+	foreach ($arr as $value){
+		echo "Value:"." " .$value. "<br />";
+	}
